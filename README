@@ -20,8 +20,3 @@ Install
 2. Install the dependency in QGIS's Python environment:
    python -m pip install earthengine-api
 3. Restart QGIS and enable the plugin from Plugin Manager.
-
-Notes for maintainers
-- Replace homepage, repository, tracker, author, and email metadata before publishing.
-- Package the zip with the plugin folder at the top level.
-- Keep LICENSE included in the plugin folder.
