@@ -1,0 +1,27 @@
+GEE Data Fetcher
+
+QGIS plugin for downloading GeoTIFF rasters from Google Earth Engine directly into QGIS.
+
+Highlights
+- Request rasters by dataset, date range, reducer, bands, scale, and region of interest.
+- Use the current map extent or selected polygons as the export region.
+- Download and add multiband GeoTIFF outputs directly into the current QGIS project.
+- Create clearer band labels and optional single-band analysis layers.
+- Use one-click Sentinel-2 NDVI and NDWI presets for common analysis workflows.
+
+Requirements
+- QGIS 3.28 or newer
+- Earth Engine Python API installed in the same Python environment as QGIS
+- A Google account with Earth Engine access
+- A Google Cloud project ID enabled for Earth Engine
+
+Install
+1. Copy the plugin folder into the QGIS plugins directory.
+2. Install the dependency in QGIS's Python environment:
+   python -m pip install earthengine-api
+3. Restart QGIS and enable the plugin from Plugin Manager.
+
+Notes for maintainers
+- Replace homepage, repository, tracker, author, and email metadata before publishing.
+- Package the zip with the plugin folder at the top level.
+- Keep LICENSE included in the plugin folder.
